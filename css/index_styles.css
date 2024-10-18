@@ -1,0 +1,29 @@
+* {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: #ffb6cb;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: large;
+  font-weight: thin;
+  line-height: 1.4em;
+}
+
+/* id selector */
+#copyright {
+  text-align: right;
+  color: #ebbac2;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a { font-weight: bold; }
+a:link { color: #5b84bb; }
+a:visited { color: mediumpurple; }
+a:focus, a:hover { color: #e87096; }
+

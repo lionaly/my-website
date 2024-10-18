@@ -1,9 +1,10 @@
 * {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: rgb(255, 223, 228);
+  
 }
 
-h1, section {
+h1,
+section {
   text-align: center;
 }
 
@@ -17,10 +18,24 @@ ul {
   padding: 0.5em;
   list-style-type: none;
   font-size: 1.2em;
+  line-height: 1.4em;
 }
 
 img {
   display: block;
   margin: auto;
   width: 20em;
+}
+
+/* id selector */
+#copyright {
+  text-align: right;
+  color: #ebbac2;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h1 {
+  color: #ffb6cb;
+  font-size: 2.5em;
 }
