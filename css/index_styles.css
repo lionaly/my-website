@@ -22,7 +22,11 @@ p {
   font-weight: bold;
 }
 
-a { font-weight: bold; }
+/* class selector */
+.socials {
+  line-height: 0.5em;
+}
+
 a:link { color: #476ea1; }
 a:visited { color: mediumpurple; }
 a:focus, a:hover { color: #e87096; }
