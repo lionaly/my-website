@@ -1,6 +1,6 @@
 * {
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
 
 p {
   font-size: large;
-  font-weight: thin;
+  font-weight: thinner;
   line-height: 1.4em;
 }
 
@@ -26,4 +26,3 @@ a { font-weight: bold; }
 a:link { color: #476ea1; }
 a:visited { color: mediumpurple; }
 a:focus, a:hover { color: #e87096; }
-
