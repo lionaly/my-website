@@ -1,11 +1,32 @@
+/* universal selector */
 * {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* type selector */
 h1 {
   color: #ffb6cb;
   font-size: 2.5em;
+}
+
+p {
+  font-size: large;
+  font-weight: thinner;
+  line-height: 1.4em;
+}
+
+main {
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+/* relational selector */
+section img {
+  float: left;
+  width: 16%;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 /* class selector */
@@ -13,10 +34,9 @@ h1 {
   line-height: 0.6em;
 }
 
-p {
-  font-size: large;
-  font-weight: thinner;
-  line-height: 1.4em;
+.i-land {
+  text-align: left;
+  padding-right: 5em;
 }
 
 /* id selector */
@@ -27,6 +47,16 @@ p {
   font-weight: bold;
 }
 
-a:link { color: #476ea1; }
-a:visited { color: mediumpurple; }
-a:focus, a:hover { color: #e87096; }
+/* pseudo-class */
+a:link {
+  color: #476ea1;
+}
+
+a:visited {
+  color: mediumpurple;
+}
+
+a:focus,
+a:hover {
+  color: #e87096;
+}
