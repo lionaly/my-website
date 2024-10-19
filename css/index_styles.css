@@ -47,6 +47,10 @@ section img {
   font-weight: bold;
 }
 
+#iland_title {
+  color: rgb(231, 150, 0);
+}
+
 /* pseudo-class */
 a:link {
   color: #476ea1;
