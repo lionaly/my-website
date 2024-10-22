@@ -19,6 +19,20 @@ ul {
   line-height: 1.4em;
 }
 
+nav {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffeaf1;
+}
+
+nav a {
+  letter-spacing: 1.5px;
+  margin: 0px 25px; 
+  text-decoration: none;
+  color: black !important;
+  font-weight: 500;
+}
+
 /* pseudo-class */
 li strong:first-child {
   color: rgb(120, 190, 255);
