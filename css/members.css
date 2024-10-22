@@ -35,7 +35,7 @@ nav a {
 
 /* pseudo-class */
 li strong:first-child {
-  color: rgb(120, 190, 255);
+  background-color: rgb(120, 190, 255, 30%);
 }
 
 img {
