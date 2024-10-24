@@ -17,9 +17,19 @@ nav a {
   font-weight: 500;
 }
 
+#dates {
+  float: right;
+}
+
+#songs {
+  float: left;;
+}
+
 #copyright {
   text-align: right;
   color: #ebbac2;
   font-size: 1em;
   font-weight: bold;
+  clear: both;
 }
+
