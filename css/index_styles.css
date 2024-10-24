@@ -5,9 +5,16 @@
 }
 
 /* type selector */
+body {
+  background: url("../images/sheep-jungwon.jpg");
+  background-repeat: repeat;
+}
+
 h1 {
   color: #ffb6cb;
   font-size: 2.5em;
+  padding: 50px;
+  background-color: black;
 }
 
 p {
@@ -19,6 +26,7 @@ p {
 main {
   margin-right: 10em;
   margin-left: 10em;
+  background: linear-gradient(45deg, pink 50%, purple 100%)
 }
 
 nav {
@@ -63,6 +71,11 @@ section img {
 
 #iland_title {
   color: rgb(231, 150, 0);
+}
+
+#group-img {
+  border: double rgb(94, 255, 0);
+  border-width: 10px;
 }
 
 /* pseudo-class */
