@@ -21,6 +21,10 @@ nav a {
   font-weight: 500;
 }
 
+main {
+  color: white;
+}
+
 #dates {
   float: right;
 }
