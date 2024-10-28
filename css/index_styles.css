@@ -42,9 +42,8 @@ nav a:hover {
 /* relational selector */
 section img {
   float: left;
-  width: 16%;
-  margin-right: 1em;
-  margin-bottom: 1em;
+  width: 240px;
+  margin-right: 20px;
 }
 
 /* class selector */
@@ -54,7 +53,6 @@ section img {
 
 .i-land {
   text-align: left;
-  padding-right: 5em;
 }
 
 /* id selector */
