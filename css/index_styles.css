@@ -5,16 +5,9 @@
 }
 
 /* type selector */
-body {
-  background: url("../images/sheep-jungwon.jpg");
-  background-repeat: repeat;
-}
-
 h1 {
   color: #ffb6cb;
   font-size: 2.5em;
-  padding: 50px;
-  background-color: #000000;
 }
 
 p {
@@ -24,9 +17,8 @@ p {
 }
 
 main {
-  margin-right: 50em;
+  margin-right: 10em;
   margin-left: 10em;
-  background: linear-gradient(45deg, #ffc0cb 50%, #800080 100%)
 }
 
 nav {
@@ -39,16 +31,20 @@ nav a {
   letter-spacing: 1.5px;
   margin: 0px 25px; 
   text-decoration: none;
-  color: #000000 !important;
+  color: black !important;
   font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* relational selector */
 section img {
   float: left;
   width: 16%;
-  margin-right: 10em;
-  margin-bottom: 5em;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 /* class selector */
@@ -58,7 +54,7 @@ section img {
 
 .i-land {
   text-align: left;
-  padding-right: 50px;
+  padding-right: 5em;
 }
 
 /* id selector */
@@ -67,16 +63,10 @@ section img {
   color: #ebbac2;
   font-size: 1em;
   font-weight: bold;
-  background-color: #556b2f;
 }
 
 #iland_title {
   color: rgb(231, 150, 0);
-}
-
-#group-img {
-  border: double #5eff00;
-  border-width: 10px;
 }
 
 /* pseudo-class */
@@ -85,7 +75,7 @@ a:link {
 }
 
 a:visited {
-  color: #9370d8;
+  color: mediumpurple;
 }
 
 a:focus,

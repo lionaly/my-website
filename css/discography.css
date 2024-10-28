@@ -1,10 +1,6 @@
 * {
   text-align: center;
-  font-family: cursive;
-}
-
-body {
-  background: linear-gradient(20deg, red 25%, orange 50%, black 100%)
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav {
@@ -21,16 +17,8 @@ nav a {
   font-weight: 500;
 }
 
-main {
-  color: white;
-}
-
-#dates {
-  float: right;
-}
-
-#songs {
-  float: left;;
+nav a:hover {
+  text-decoration: underline;
 }
 
 #copyright {
@@ -38,6 +26,4 @@ main {
   color: #ebbac2;
   font-size: 1em;
   font-weight: bold;
-  clear: both;
 }
-

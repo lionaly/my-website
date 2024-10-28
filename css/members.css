@@ -33,6 +33,10 @@ nav a {
   font-weight: 500;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 /* pseudo-class */
 li strong:first-child {
   background-color: rgb(120, 190, 255, 30%);
