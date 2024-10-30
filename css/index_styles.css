@@ -21,13 +21,20 @@ main {
   margin-left: 150px;
 }
 
-nav {
+/* Navigation Bar */
+nav ul {
+  list-style-type: none;
   text-align: center;
   padding: 15px;
+  margin: 0px;
   background-color: #ffeaf1;
 }
 
-nav a {
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
   letter-spacing: 1.5px;
   margin: 0px 25px; 
   text-decoration: none;
