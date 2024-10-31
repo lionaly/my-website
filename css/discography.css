@@ -37,27 +37,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* .album-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.album-name,
-.dates-covers,
-.songs {
-  flex: 1;
-  text-align: center;
-} */
-
+/* Album Covers */
 img {
-  width: 400px;
+  width: 20%;
+  min-width: 250px;
   padding: 0 100px;
 }
 
@@ -87,25 +70,18 @@ img {
   background-color: rgb(170, 120, 170, 50%);
 }
 
-/* #dates-covers {
-  text-align: center;
+/* Return to Top Link */
+#return-top {
+  text-align: left;
 }
 
-#album-name p {
-  line-height: 15.7em;
-  font-weight: 500;
-  font-size: 1.5em;
-  text-align: center;
+#return-top a:link {
+  color: #476ea1;
 }
 
-#songs ol {
-  padding: 0px 40px;
-  margin-bottom: 220px;
+#return-top a:visited {
+  color: mediumpurple;
 }
-
-#songs ol li {
-  line-height: 1.8em;
-} */
 
 /* Footer */
 #copyright {

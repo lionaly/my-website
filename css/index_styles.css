@@ -52,19 +52,24 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.socials {
+  line-height: 0.6em;
+}
+
+/* I-Land Description */
+.i-land {
+  text-align: left;
+}
+
+#iland_title {
+  color: rgb(231, 150, 0);
+}
+
 #iland-poster {
   float: left;
   width: 20%;
   margin-right: 2%;
   min-width: 150px;
-}
-
-.socials {
-  line-height: 0.6em;
-}
-
-.i-land {
-  text-align: left;
 }
 
 /* Footer */
@@ -75,10 +80,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-#iland_title {
-  color: rgb(231, 150, 0);
-}
-
+/* Links */
 a:link {
   color: #476ea1;
 }

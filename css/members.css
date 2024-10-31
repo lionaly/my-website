@@ -52,11 +52,17 @@ li strong:first-child {
   background-color: rgb(120, 190, 255, 30%);
 }
 
+/* Members' Profile Pictures */
 img {
   display: block;
   margin: auto;
   width: 17%;
   min-width: 250px;
+}
+
+h1 {
+  color: #ffb6cb;
+  font-size: 2.5em;
 }
 
 #copyright {
@@ -66,11 +72,7 @@ img {
   font-weight: bold;
 }
 
-h1 {
-  color: #ffb6cb;
-  font-size: 2.5em;
-}
-
+/* Return to Top Link */
 #return-top a:link {
   color: #476ea1;
 }
