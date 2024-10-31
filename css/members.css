@@ -11,7 +11,7 @@ nav ul {
   list-style-type: none;
   text-align: center;
   padding: 15px;
-  margin: 0px;
+  margin: 0;
   background-color: #ffeaf1;
 }
 
@@ -48,7 +48,6 @@ h2 {
   line-height: 1.4em;
 }
 
-/* pseudo-class */
 li strong:first-child {
   background-color: rgb(120, 190, 255, 30%);
 }
@@ -56,10 +55,10 @@ li strong:first-child {
 img {
   display: block;
   margin: auto;
-  width: 20em;
+  width: 17%;
+  min-width: 250px;
 }
 
-/* id selector */
 #copyright {
   text-align: right;
   color: #ebbac2;
@@ -70,4 +69,12 @@ img {
 h1 {
   color: #ffb6cb;
   font-size: 2.5em;
+}
+
+#return-top a:link {
+  color: #476ea1;
+}
+
+#return-top a:visited {
+  color: mediumpurple;
 }
