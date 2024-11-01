@@ -45,11 +45,10 @@ img {
 }
 
 .songs ol {
-  padding: 0px 20px;
-  margin: 0;
+  margin: auto;
   list-style-position: inside;
   display: inline-block;
-
+  width: 16%;
 }
 
 .songs ol li {
