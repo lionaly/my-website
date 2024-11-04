@@ -1,4 +1,5 @@
 * {
+  text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -31,22 +32,64 @@ nav a:hover {
   text-decoration: underline;
 }
 
-h1,
-section {
-  text-align: center;
+/* Styles for Home Page */
+h1 {
+  color: #ffb6cb;
+  font-size: 2.5em;
 }
 
 h2 {
   font-size: 1.7em;
 }
 
-.facts {
-  display: inline-block;
+header img {
+  width: 30%;
+  min-width: 400px;
+}
+
+#homepage p {
+  font-size: large;
+  font-weight: thinner;
+  line-height: 1.4em;
+}
+
+#homepage {
+  margin: 0 15%;
+}
+
+.socials {
+  line-height: 0.6em;
+}
+
+/* I-Land Description */
+.i-land {
   text-align: left;
-  padding: 0.5em;
+}
+
+#iland_title {
+  color: rgb(231, 150, 0);
+}
+
+#iland-poster {
+  float: left;
+  width: 20%;
+  margin-right: 2%;
+  min-width: 150px;
+}
+/*********************************************************/
+
+/* Styles for Members Page */
+
+.mem-facts {
+  display: inline-block;
+  padding: 10px;
   list-style-type: none;
   font-size: 1.2em;
   line-height: 1.4em;
+}
+
+.mem-facts li {
+  text-align: left;
 }
 
 li strong:first-child {
@@ -54,18 +97,15 @@ li strong:first-child {
 }
 
 /* Members' Profile Pictures */
-img {
+.member-imgs {
   display: block;
   margin: auto;
   width: 17%;
   min-width: 250px;
 }
+/*********************************************************/
 
-h1 {
-  color: #ffb6cb;
-  font-size: 2.5em;
-}
-
+/* Footer */
 #copyright {
   text-align: right;
   color: #ebbac2;
@@ -73,11 +113,16 @@ h1 {
   font-weight: bold;
 }
 
-/* Return to Top Link */
-#return-top a:link {
+/* Links */
+a:link {
   color: #476ea1;
 }
 
-#return-top a:visited {
+a:visited {
   color: mediumpurple;
+}
+
+a:focus,
+a:hover {
+  color: #e87096;
 }
