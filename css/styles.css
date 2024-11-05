@@ -106,7 +106,7 @@ li strong:first-child {
 
 /*********************************************************/
 
-/* Styles for Discography Page*/
+/* Styles for Discography Page */
 .dates-covers img {
   width: 20%;
   min-width: 250px;
@@ -137,6 +137,31 @@ li strong:first-child {
 .title-track {
   background-color: rgb(170, 120, 170, 50%);
 }
+
+/*********************************************************/
+
+/* Styles for K-Pop Terms Page */
+
+#kpopterms,
+header p {
+  width: 40%;
+  display: inline-block;
+}
+
+#kpopterms div h2 {
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+#kpopterms div p {
+  text-align: left;
+}
+
+#kpopterms div {
+  padding: 1px;
+}
+
+/*********************************************************/
 
 /* Footer */
 #copyright {
