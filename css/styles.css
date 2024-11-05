@@ -43,8 +43,8 @@ h2 {
 }
 
 header img {
-  width: 30%;
-  min-width: 400px;
+  width: 40%;
+  min-width: 350px;
 }
 
 #homepage p {
@@ -144,7 +144,7 @@ li strong:first-child {
 
 #kpopterms,
 header p {
-  width: 40%;
+  width: 50%;
   display: inline-block;
 }
 
@@ -183,4 +183,35 @@ a:visited {
 a:focus,
 a:hover {
   color: #e87096;
+}
+
+@media screen and (max-width: 606px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header img {
+    width: 70%;
+  }
+
+  #homepage {
+    margin: 0 5%;
+  }
+
+  #kpopterms,
+  header p {
+    width: 75%;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 607px) and (max-width: 800px) {
+  header img {
+    width: 60%;
+  }
+
+  #homepage {
+    margin: 0 10%;
+  }
 }
