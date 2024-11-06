@@ -51,10 +51,6 @@ header img {
   margin: 0 15%;
 }
 
-.socials {
-  line-height: 0.6em;
-}
-
 /* I-Land Description */
 .i-land {
   text-align: left;
@@ -109,11 +105,11 @@ li strong:first-child {
 
 .album-info {
   line-height: 10px;
-  padding: 10px;
+  padding: 15px 0;
 }
 
 .songs ol {
-  width: 40%;
+  width: 60%;
   min-width: 165px;
   display: inline-block;
 }
@@ -127,7 +123,6 @@ li strong:first-child {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin: 0 auto;
 }
 
 .album-name {
@@ -240,5 +235,3 @@ a:hover {
     width: 60%;
   }
 }
-
-@media screen and (max-width: 1070px) {}
