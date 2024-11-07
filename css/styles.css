@@ -105,7 +105,6 @@ li strong:first-child {
 
 .album-info {
   line-height: 10px;
-  padding: 15px 0;
 }
 
 .songs ol {
@@ -120,9 +119,11 @@ li strong:first-child {
 }
 
 .album {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: center; */
+  width: 350px;
+  text-align: center;
 }
 
 .album-name {
@@ -133,6 +134,13 @@ li strong:first-child {
 .title-track {
   background-color: rgb(170, 120, 170, 50%);
   padding: 2px;
+}
+
+#discography {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
 /*********************************************************/
@@ -158,6 +166,31 @@ header p {
 }
 
 /*********************************************************/
+
+/* Styles for Content Page */
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+/*note: fix formatting for media queries*/
+
+#shows {
+  display: grid;
+  grid-template: repeat(2, 350px) / repeat(2, 500px);
+  gap: 20px;
+}
+
+.show {
+  padding: 40px;
+  background-color: #f0f8ff;
+  border-radius: 30px;
+}
+
+.show img {
+  width: 35%;
+  border-radius: 10px;
+}
 
 /* Footer */
 #copyright {
@@ -208,7 +241,7 @@ a:hover {
 
   .songs ol {
     display: inline-block;
-    width: 50%
+    width: 55%
   }
 
   .album-info img {
@@ -237,5 +270,9 @@ a:hover {
 
   .songs ol {
     width: 60%;
+  }
+
+  #show {
+    grid-template-columns: 1fr;
   }
 }
