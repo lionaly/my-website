@@ -167,6 +167,10 @@ header p {
   font-weight: bold;
 }
 
+footer {
+  clear: both;
+}
+
 /* Links */
 a:link {
   color: #476ea1;
