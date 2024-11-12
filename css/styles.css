@@ -20,10 +20,25 @@ nav ul li a {
   text-decoration: none;
   color: #000000 !important;
   font-weight: 500;
+  position: relative;
+  padding: 5px 0;
 }
 
-nav a:hover {
-  text-decoration: underline;
+nav ul li a::after { /*Expands underline from the center*/
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+nav ul li a:hover::after,
+nav ul li a.active::after {
+  width: 100%;
+  left: 0;
 }
 
 /* Styles for Home Page */
@@ -171,24 +186,26 @@ header p {
 #content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
-
-/*note: fix formatting for media queries*/
 
 #shows {
   display: grid;
-  grid-template: repeat(2, 350px) / repeat(2, 500px);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  padding: 0 5%;
 }
 
 .show {
-  padding: 40px;
+  padding: 30px;
   background-color: #f0f8ff;
   border-radius: 30px;
+  align-content: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 30%);
 }
 
 .show img {
-  width: 35%;
+  width: 45%;
   border-radius: 10px;
 }
 
@@ -274,5 +291,32 @@ a:hover {
 
   #show {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #shows {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1279px) {
+  #shows {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1670px) {
+  #shows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 5%;
   }
 }
