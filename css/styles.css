@@ -187,6 +187,7 @@ header p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 40px;
 }
 
 #shows {
@@ -209,6 +210,20 @@ header p {
   border-radius: 10px;
 }
 
+a.playlists {
+  text-decoration: none;
+  color:#000000 !important;
+  background-color: #bacbf0;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+a.playlists:hover {
+  background-color: #8aa4dd;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 20%);
+}
+
 /* Footer */
 #copyright {
   text-align: right;
@@ -221,7 +236,7 @@ footer {
   clear: both;
 }
 
-/* Links */
+/* General Links */
 a:link {
   color: #476ea1;
 }
