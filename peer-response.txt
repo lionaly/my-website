@@ -1,11 +1,10 @@
-1. Suggestion: Add some text to the discography section. I noticed you highlighted a song out of each album,
-   is this your favorite track? Or did it mean something else? The lack of a description makes this just a little confusing.
+1. Suggestion: When the page is shrunk as small as you're able to the tabs become oddly spaced and difficult to read when underlined.
 
-   Improvement: I added a note below the heading to explain what the highlighted songs are.
+   Improvement: I added a drop down menu button using slicknav so it looks better on mobile devices.
 
 2. Suggestion: Introduce some design elements to maintain parity. I found the light blue boxes on the content page to be
    really aesthetically pleasing. Maybe introduce those elements in the discography page, to make them feel like parts of 
    a whole rather than entirely separate pages.
 
    Improvement: I created light pink boxes for the albums so it looks more put together. I added most of the same styles I did for
-   my blues bozes on the Content page.
+   my blues boxes on the Content page.

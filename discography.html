@@ -6,14 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ENHYPEN's music releases over the years">
-  <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <title>Discography</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
+    });
+  </script>
 </head>
 
 <body>
   <!-- Navigation bar -->
-  <nav>
+  <nav id="mobile_menu"></nav>
+  <nav id="nav_menu">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="members.html">Members</a></li>
