@@ -7,4 +7,4 @@
    a whole rather than entirely separate pages.
 
    Improvement: I created light pink boxes for the albums so it looks more put together. I added most of the same styles I did for
-   my blues boxes on the Content page.
+   my blues boxes on the Content page. I genuinely like this new version better than my previous layout.
