@@ -1,9 +1,22 @@
+/* Universal Styles */
 * {
   text-align: center;
   font-family: 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+  background-color: #fefefd;
+}
 
+h1 {
+  color: #ce0121;
+  font-size: 2.7em;
+  font-family: 'Gaegu', 'Noto Sans', sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+}
 
 /* Navigation Bar */
 #nav_menu ul {
@@ -13,10 +26,10 @@
   flex-wrap: wrap;
   padding: 15px;
   margin: 0;
-  background-color: #ffeaf1;
+  background: linear-gradient(45deg, #ce0121 0%, #ee9d9e 50%, #f1bdc1 100%);
 }
 
-#nav_menu ul li a {
+#nav_menu a {
   letter-spacing: 1.5px;
   margin: 0px 25px;
   text-decoration: none;
@@ -26,7 +39,7 @@
   padding: 5px 0;
 }
 
-#nav_menu ul li a::after {
+#nav_menu a::after {
   /*Expands underline from the center*/
   content: "";
   position: absolute;
@@ -38,8 +51,8 @@
   transition: width 0.3s ease, left 0.3s ease;
 }
 
-#nav_menu ul li a:hover::after,
-#nav_menu ul li a.active::after {
+#nav_menu a:hover::after,
+#nav_menu a.active::after {
   width: 100%;
   left: 0;
 }
@@ -49,16 +62,6 @@
 }
 
 /* Styles for Home Page */
-h1 {
-  color: #ffb6cb;
-  font-size: 2.7em;
-  font-family: 'Gaegu', 'Noto Sans', sans-serif;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
 header img {
   width: 40%;
   min-width: 350px;
@@ -95,7 +98,6 @@ header img {
 /* Styles for Members Page */
 .mem-facts {
   display: inline-block;
-  padding: 10px;
   list-style-type: none;
   font-size: 1.2em;
   line-height: 1.4em;
@@ -105,22 +107,34 @@ header img {
   text-align: left;
 }
 
-li strong:first-child {
+.mem-facts li strong:first-child {
   background-color: rgb(120, 190, 255, 30%);
 }
 
 .member-imgs {
   display: block;
   margin: auto;
-  width: 17%;
+  width: 20%;
   min-width: 250px;
+}
+
+.mem-fun-facts {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.mem-fun-facts li {
+  line-height: 1.7em;
 }
 
 #jump-to-members ul {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 7px 0;
+  padding: 0;
 }
 
 #jump-to-members ul li {
@@ -199,9 +213,9 @@ li strong:first-child {
 
 /* Styles for K-Pop Terms Page */
 #kpopterms,
-header p {
+#kpopterms-header p {
   width: 50%;
-  display: inline-block;
+  margin: 0 auto;
 }
 
 #kpopterms div h2 {
@@ -217,11 +231,20 @@ header p {
   padding: 1px;
 }
 
+#kpop-def-img {
+  width: 35%;
+  display: block;
+  margin: 15px auto;
+  min-width: 350px;
+  border: 1px solid black;
+}
+
 /*********************************************************/
 
 /* Styles for Content Page */
 #vlive-gif {
   width: 35%;
+  border: 10px ridge #191718;
 }
 
 #content {
@@ -359,7 +382,7 @@ a:hover {
   }
 
   #kpopterms,
-  header p {
+  #kpopterms-header p {
     width: 75%;
     display: inline-block;
   }
@@ -385,8 +408,18 @@ a:hover {
   }
 
   .slicknav_menu {
-    background-color: #ffeaf1;
+    background: linear-gradient(45deg, #ce0121 0%, #ee9d9e 50%, #f1bdc1 100%);
   }
+
+  .slicknav_menu a {
+    letter-spacing: 1.5px;
+    margin: 0px 25px;
+    text-decoration: none;
+    color: #000000 !important;
+    font-weight: 500;
+    padding: 5px 0;
+  }
+
 }
 
 /* For Tablet Devices */
