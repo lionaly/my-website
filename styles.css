@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #fefefd;
+  background-image: url("images/heart-grid.jpg");
+  background-repeat: repeat;
 }
 
 h1 {
@@ -337,6 +338,29 @@ a.playlists:hover {
   background-color: #bacbf0;
   color: #000;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 30%);
+}
+
+#latest-mv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px;
+  padding-bottom: 40px;
+}
+
+#latest-mv-grid div {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Aspect ratio: 16:9 */
+}
+
+#latest-mv-grid iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /*********************************************************/
