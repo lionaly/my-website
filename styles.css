@@ -41,7 +41,7 @@ h2 {
 }
 
 #nav_menu a::after {
-  /*Expands underline from the center*/
+  /* Expands underline from the center */
   content: "";
   position: absolute;
   left: 50%;
@@ -256,6 +256,7 @@ header img {
 }
 
 #shows {
+  /* styles for recommended shows */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -276,6 +277,7 @@ header img {
 }
 
 a.playlists {
+  /* styles for playlists links */
   text-decoration: none;
   color: #000000 !important;
   background-color: #bacbf0;
@@ -351,7 +353,8 @@ a.playlists:hover {
 #latest-mv-grid div {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* Aspect ratio: 16:9 */
+  padding-top: 56.25%;
+  /* Aspect ratio: 16:9 */
 }
 
 #latest-mv-grid iframe {
@@ -397,6 +400,8 @@ a:hover {
 
 /* For Mobile Devices */
 @media screen and (max-width: 606px) {
+
+  /* MQ for Home page */
   header img {
     width: 70%;
   }
@@ -405,12 +410,14 @@ a:hover {
     margin: 0 5%;
   }
 
+  /* MQ for Kpop Terms page */
   #kpopterms,
   #kpopterms-header p {
     width: 75%;
     display: inline-block;
   }
 
+  /* MQ for Members page */
   .mem-facts {
     font-size: 1.1em;
   }
@@ -421,7 +428,7 @@ a:hover {
   }
 }
 
-/* Slicknav */
+/* Media Queries for Slicknav */
 @media screen and (max-width: 725px) {
   #nav_menu {
     display: none;
@@ -448,6 +455,8 @@ a:hover {
 
 /* For Tablet Devices */
 @media screen and (min-width: 607px) and (max-width: 1000px) {
+
+  /* MQ for Home page */
   header img {
     width: 60%;
   }
@@ -456,12 +465,13 @@ a:hover {
     margin: 0 10%;
   }
 
+  /* MQ for Content page */
   #show {
     grid-template-columns: 1fr;
   }
 }
 
-/* Media Queries for Content Page*/
+/* Media Queries for Content Page */
 @media screen and (max-width: 900px) {
   #shows {
     display: grid;
