@@ -59,6 +59,7 @@ h2 {
 }
 
 #mobile_menu {
+  /* Slicknav button is hidden */
   display: none;
 }
 
@@ -198,6 +199,7 @@ header img {
 }
 
 #disc-grid-container {
+  /* The album boxes auto adjusts to the screen width */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   width: 95%;
@@ -333,6 +335,7 @@ a.playlists:hover {
   padding: 10px 15px;
   border-radius: 10px;
   display: inline-block;
+  /* When the link is hovered, it pops out smoothly */
   transition: all 0.3s ease-in-out;
 }
 
@@ -343,6 +346,8 @@ a.playlists:hover {
 }
 
 #latest-mv-grid {
+  /* Displays the videos in a grid structure and automatically adjusts
+  the videos to fit in the available space */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -353,8 +358,7 @@ a.playlists:hover {
 #latest-mv-grid div {
   position: relative;
   width: 100%;
-  padding-top: 56.25%;
-  /* Aspect ratio: 16:9 */
+  padding-top: 56.25%; /* Aspect ratio: 16:9 */
 }
 
 #latest-mv-grid iframe {
@@ -414,7 +418,6 @@ a:hover {
   #kpopterms,
   #kpopterms-header p {
     width: 75%;
-    display: inline-block;
   }
 
   /* MQ for Members page */
@@ -431,10 +434,12 @@ a:hover {
 /* Media Queries for Slicknav */
 @media screen and (max-width: 725px) {
   #nav_menu {
+    /* Hides original nav menu */
     display: none;
   }
 
   #mobile_menu {
+    /* Displays slicknav button */
     display: block;
   }
 
@@ -455,7 +460,6 @@ a:hover {
 
 /* For Tablet Devices */
 @media screen and (min-width: 607px) and (max-width: 1000px) {
-
   /* MQ for Home page */
   header img {
     width: 60%;
@@ -464,17 +468,12 @@ a:hover {
   #homepage {
     margin: 0 10%;
   }
-
-  /* MQ for Content page */
-  #show {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Media Queries for Content Page */
 @media screen and (max-width: 900px) {
   #shows {
-    display: grid;
+    /* Decreases/increases to 1 column */
     grid-template-columns: 1fr;
   }
 
@@ -485,7 +484,7 @@ a:hover {
 
 @media screen and (min-width: 901px) and (max-width: 1279px) {
   #shows {
-    display: grid;
+    /* Decreases/increases to 2 columns */
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -496,7 +495,7 @@ a:hover {
 
 @media screen and (min-width: 1280px) and (max-width: 1670px) {
   #shows {
-    display: grid;
+    /* Decreases/increases to 3 columns */
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -508,19 +507,14 @@ a:hover {
 /* Media Queries for Discography Page */
 @media screen and (max-width: 769px) {
   .album {
+    /* Decreases the content inside each album box to 1 column */
     grid-template-columns: 1fr;
     padding: 10px;
     width: 95%;
     gap: 0;
   }
 
-  #disc-grid-container {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
   .songs ol {
-    display: inline-block;
     width: 60%;
   }
 
@@ -529,18 +523,20 @@ a:hover {
   }
 }
 
-@media screen and (min-width:770px) and (max-width: 1320px) {
-  #disc-grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
+@media screen and (min-width:770px) and (max-width: 1330px) {
   .album {
     gap: 0;
   }
 
   .album-info img {
     width: 75%;
+  }
+}
+
+@media screen and (max-width: 1331px) {
+  #disc-grid-container {
+    /* Decreases to 1 column and overwrites the fixed min-width of 600px */
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
