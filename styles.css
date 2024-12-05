@@ -404,7 +404,6 @@ a:hover {
 
 /* For Mobile Devices */
 @media screen and (max-width: 606px) {
-
   /* MQ for Home page */
   header img {
     width: 70%;
@@ -455,7 +454,6 @@ a:hover {
     font-weight: 500;
     padding: 5px 0;
   }
-
 }
 
 /* For Tablet Devices */
